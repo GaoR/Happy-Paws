@@ -1,0 +1,36 @@
+{
+  "name": "happy-paws",
+  "version": "1.0.0",
+  "description": "Full-Stack App Development Exercise",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaoR/Happy-Paws.git"
+  },
+  "author": "Rob Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaoR/Happy-Paws/issues"
+  },
+  "homepage": "https://github.com/GaoR/Happy-Paws#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "jquery": "^3.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "request": "^2.81.0"
+  }
+}
